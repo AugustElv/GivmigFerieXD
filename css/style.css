@@ -1,5 +1,6 @@
 :root {
   --text-color: lightgray;
+  --padding: 20px;
 }
 
 html{
@@ -26,10 +27,11 @@ main {
 
 aside {
   width: 40%; 
+  padding: 20px;
 }
 
 .logo{
-  border: 5px solid var(--text-color)
+  border: 5px solid var(--text-color);
 }
 
 .dagbog p {
@@ -50,13 +52,15 @@ h2 {
 }
 
 .leologo {
-  width: 100%
+  width: 100%;
 }
 
 .leoInfo {
-  border: 5px solid lightgray
+  border: 5px solid lightgray;
+  padding: var(--padding)
 }
 
 .startrakkers {
-  border: 5px solid lightgray
+  border: 5px solid lightgray;
+  padding: var(--padding)
 }
