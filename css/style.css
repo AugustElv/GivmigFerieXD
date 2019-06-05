@@ -1,0 +1,62 @@
+:root {
+  --text-color: lightgray;
+}
+
+html{
+  background: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout {
+  display: flex;
+  width: 100%;
+  max-width:800px;
+  justify-content: space-between;
+}
+
+main {
+  width: 60%;
+}
+
+aside {
+  width: 40%; 
+}
+
+.logo{
+  border: 5px solid var(--text-color)
+}
+
+.dagbog p {
+  border-bottom: 3px solid var(--text-color);
+}
+
+.top {
+  border: 5px solid lightgray;
+  background: lightgray;
+}
+
+h1 {
+  font-size:38px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.leologo {
+  width: 100%
+}
+
+.leoInfo {
+  border: 5px solid lightgray
+}
+
+.startrakkers {
+  border: 5px solid lightgray
+}
