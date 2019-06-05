@@ -62,5 +62,13 @@ h2 {
 
 .startrakkers {
   border: 5px solid lightgray;
-  padding: var(--padding)
+  padding: var(--padding);
 }
+
+.takker {
+  font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+} 
