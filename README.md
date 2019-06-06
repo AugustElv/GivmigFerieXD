@@ -1,2 +1,3 @@
 # GivmigFerieXD
-Hjemmeside: https://xboxmaster4thewin.github.io/GivmigFerieXD/
+Hjemmeside: https://augustelv.github.io/GivmigFerieXD/
+
