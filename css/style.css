@@ -1,6 +1,6 @@
 :root {
   --text-color: lightgray;
-  --padding: 20px;
+  --padding: 30px;
 }
 
 html{
@@ -28,6 +28,14 @@ main {
 aside {
   width: 40%; 
   padding: 20px;
+}
+
+.lært p{
+  padding-bottom: var(--padding);
+}
+
+.lært {
+border-bottom: 5px solid lightgray;
 }
 
 .logo{
@@ -63,6 +71,7 @@ h2 {
 .startrakkers {
   border: 5px solid lightgray;
   padding: var(--padding);
+  padding-bottom: var(--padding);
 }
 
 .takker {
@@ -72,3 +81,11 @@ h2 {
 .footer {
   text-align: center;
 } 
+
+.dagbog p {
+  padding-bottom: var(--padding);
+}
+
+.startrakkers li {
+  padding-bottom: var(--padding);
+}
